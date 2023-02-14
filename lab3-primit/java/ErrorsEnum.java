@@ -56,14 +56,14 @@ public class ErrorsEnum
 
     public static void main(String[] args)
     {
-        System.out.print("Known errors = ");
-        for (Error e : EnumSet.allOf(Error.class)) 
+        System.out.print("Known results = ");
+        for (Result result : EnumSet.allOf(Result.class)) 
         {
-            System.out.print(e + " ");
+            System.out.print(result + " ");
         }
         System.out.println();
         
-        Error e = getEnumElement("error", Error.class);
+        Error e = getEnumElement("result", Error.class);
         System.out.println(e + " results in: " + error2Result(e));
     }
 }
