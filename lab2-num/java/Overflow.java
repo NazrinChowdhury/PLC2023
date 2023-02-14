@@ -47,7 +47,7 @@ public class Overflow
     }
 
     /**
-    * Compute the sequence of powers n^0,n^1,...,n^m
+    *  Compute the sequence of powers n^0,n^1,...,n^m
     * for a given integer n and natural number m.
     * @param n = a number to raise to the power m
     * @param m = the power (has to be >= 0)
