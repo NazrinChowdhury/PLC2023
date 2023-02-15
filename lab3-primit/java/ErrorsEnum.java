@@ -63,7 +63,7 @@ public class ErrorsEnum
         }
         System.out.println();
         
-        Error e = getEnumElement("result", Error.class);
-        System.out.println(e + " results in: " + error2Result(e));
+       Result r = getEnumElement("error", result.class);
+        System.out.println(r + " results in: " + error2Result(r));
     }
 }
